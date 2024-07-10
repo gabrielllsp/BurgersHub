@@ -40,7 +40,7 @@ class BurgerViewModel @Inject constructor(
         try {
             emit(StateView.Loading())
 
-            val burgers = getBurgersByNameUseCase
+            val burgers = getBurgersByNameUseCase(name)
 
             emit(StateView.Success(data = burgers))
         } catch (ex: HttpException) {

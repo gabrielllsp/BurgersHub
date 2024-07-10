@@ -19,5 +19,4 @@ class DataModule {
     ): ServiceAPI {
         return serviceProvider.createService(ServiceAPI::class.java)
     }
-
 }
