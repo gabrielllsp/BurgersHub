@@ -1,6 +1,5 @@
 package com.example.burgershub.presenter.burgers
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -10,7 +9,7 @@ import com.example.burgershub.util.formattedValue
 import com.squareup.picasso.Picasso
 
 class BurgerAdapter(
-    context: Context,
+
     private val burgers: List<Burger>,
     private val burgerClick: (Int) -> Unit
 ) : RecyclerView.Adapter<BurgerAdapter.MyViewHolder>() {
