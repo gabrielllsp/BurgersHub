@@ -35,7 +35,7 @@ class ServiceProvider @Inject constructor(
                         .newBuilder()
                         .addHeader(
                             name = "x-rapidapi-key",
-                            value = "5dc9a8f097msh353843d70489e28p1bdc2djsn8e33e68d7edb"
+                            value = "5dc9a8f097msh35dfsudf3843d70489e28p1bdfdsfsc2djsn8e33e68d7edboiiuh"
                         ).build()
                 )
             }

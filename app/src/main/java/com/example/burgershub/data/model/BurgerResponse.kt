@@ -8,7 +8,7 @@ data class BurgerResponse(
     @SerializedName("images")
     val imageResponses: List<ImageResponse?>?,
     @SerializedName("ingredients")
-    val ingredientResponses: List<IngredientResponse?>?,
+    val ingredientResponses: List<IngredientResponse>?,
     val name: String?,
     val price: Float?,
     val veg: Boolean?
